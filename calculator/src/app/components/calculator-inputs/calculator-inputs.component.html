@@ -1,0 +1,42 @@
+<div class="clacolator-contanor">
+    <h1>angular claculator</h1>
+
+  <div class="inputs">
+    <input class="input-user" [value]="num" />
+  </div>
+
+  <div class="row-cleer">
+    <button class="cleer-button" (click)="onClickMe('AC')">AC</button>
+    <button class="history-button" (click)="myHistoryFun()">H</button>
+
+    <button class="button" (click)="onClickMe('/')">/</button>
+
+  </div>
+
+  <div class="row-one">
+    <button class="button" (click)="onClickMe('7')">7</button>
+    <button class="button" (click)="onClickMe('8')">8</button>
+    <button class="button" (click)="onClickMe('9')">9</button>
+    <button class="button" (click)="onClickMe('*')">*</button>
+  </div>
+
+  <div class="row-tow">
+    <button class="button" (click)="onClickMe('4')">4</button>
+    <button class="button" (click)="onClickMe('5')">5</button>
+    <button class="button" (click)="onClickMe('6')">6</button>
+    <button class="button" (click)="onClickMe('-')">-</button>
+  </div>
+  <div class="row-three">
+    <button class="button" (click)="onClickMe('1')">1</button>
+    <button class="button" (click)="onClickMe('2')">2</button>
+    <button class="button" (click)="onClickMe('3')">3</button>
+    <button class="button" (click)="onClickMe('+')">+</button>
+  </div>
+  <div>
+    <button id="zero-buuton" (click)="onClickMe('0')">0</button>
+    <button class="button" (click)="onClickMe('.')">.</button>
+    <button class="button" (click)="onClickMe('=')">=</button>
+  </div>
+  <div>
+  </div>
+</div>

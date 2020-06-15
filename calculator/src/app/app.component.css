@@ -1,0 +1,13 @@
+.a {
+  display: flex;
+  max-width: 40%;
+  margin: auto;
+
+}
+
+app-calculator-history {
+
+}
+app-calculator-inputs{
+    margin: auto;
+}

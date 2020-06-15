@@ -1,0 +1,45 @@
+h1{
+  font-size : 50px;
+
+}
+.clacolator-contanor{
+  text-align: center;
+}
+
+.input-user {
+  padding: 20px 4px;
+  box-sizing: border-box;
+  font-size: 36pt;
+  width: 352px;
+  background-color: rgb(250, 250, 250);
+}
+
+.input-sine {
+  padding: 20px 4px;
+  box-sizing: border-box;
+  font-size: 36pt;
+  width: 100px;
+}
+.button {
+  height: 100px;
+  width: 88px;
+  font-size : 30px;
+}
+.cleer-button {
+  height: 100px;
+  width: 176px;
+  font-size : 30px;
+
+}
+#zero-buuton {
+  height: 100px;
+  width: 176px;
+  font-size : 30px;
+
+}
+.history-button{
+  height: 100px;
+  width: 88px;
+  font-size : 30px;
+
+}
